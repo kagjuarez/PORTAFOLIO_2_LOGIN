@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    
+    
+}
+
+/*__Variables de color___*/
+
+:root{
+    --colortexto: #353535;
+    --colorfondo: #FF6666;
+    --colorclaro: #FFFFFF;
+    --colorgris: #F0F1F6;
+    --colorprincipal: #FFFFFF;
+    --colorborde: #FF9BAF;
+    --colorborde2: #32D5E5 ;
+    
+}
+
+/*__Medidas EM___*/
+
+body{
+    font-size: 10px;
+    background-image: linear-gradient(225deg, #ff7946 0, #ff6c4a 12.5%, #ff5d4e 25%, #ff4d53 37.5%, #ff3858 50%, #fb1b5e 62.5%, #f70066 75%, #f2006e 87.5%, #eb0078 100%);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+/*__DISEÑO___*/
+
+
+.Principal_container{
+    width: 37em;
+    height: auto;
+    background-color: var(--colorclaro);
+    margin: auto;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.7em;
+    padding-bottom: 3em;
+}
+
+.titulo_principal{
+    width: 30em;
+    height: 10em;
+    margin: auto;
+    padding-top: 3em;
+}
+
+.caja_name{
+    width: 35em;
+    height: 8em;
+    margin: 2em;
+    margin: auto;
+}
+
+.caja_email{
+    width: 35em;
+    height: 8em;
+    margin: 2em;
+    margin: auto;
+}
+
+.caja_message{
+    width: 35em;
+    height: 15em;
+    margin: 2em;
+    margin: auto;
+
+}
+
+.caja_boton{
+    width: 10em;
+    height: 4em;
+    border: 0.1em solid var(--colorfondo);
+    margin: 2em;
+    background-image: linear-gradient(225deg, #ff6661 0, #ff525d 25%, #ff3858 50%, #f30d54 75%, #e80052 100%);
+    border-radius: 0.5em;
+    margin-left: 3.5em;
+    color: var(--colorclaro);
+    list-style: none;
+}
+
+.caja_boton h3{
+    color: Var(--colorclaro);
+    margin: 1em;
+}
+
+.caja_boton:hover{
+    transition: 0.5s;
+    background-image: radial-gradient(circle at 119.64% 62.28%, #be5af5 0, #a04ff4 16.67%, #7944f3 33.33%, #3c3cf2 50%, #0037f1 66.67%, #0034ef 83.33%, #0034ee 100%);
+    border: 0.1em solid var(--colorclaro);
+}
+
+/*__ESPECIFICACIONES___*/
+
+
+h1{
+    color: var(--colortexto);
+    margin-bottom: 0.8em;
+}
+
+h3{
+    color: var(--colortexto);
+    margin-bottom: 0.8em;
+    margin-left: 2.5em;
+}
+
+/*__CASILLAS___*/
+
+.griss{
+    width: 21em;
+    height: 2em;
+    background-color: var(--colorgris);
+    border-radius: 0.3em;
+    margin-left: 2em;
+    border: none;
+    outline: none;
+    appearance: none;
+    border-bottom: 0.1em solid var(--colorborde);
+}
+
+.griss2{
+    width: 21em;
+    height: 9em;
+    background-color: var(--colorgris); 
+    border-radius: 0.3em;
+    margin-left: 2em;
+    border: none;
+    outline: none;
+    border-bottom: 0.1em solid var(--colorborde);
+}
+
+.griss:hover{
+    border-bottom: 0.1em solid var(--colorborde2);  
+}
+
+.griss2:hover{
+    border-bottom: 0.1em solid var(--colorborde2);  
+}
+
+.icon-arrow-right-circle{
+    margin: 0.5em;
+    font-size: 1.2em;
+    color: var(--colorclaro);
+}
+
+
+
+
+
+
+
+
+
+
